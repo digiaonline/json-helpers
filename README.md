@@ -24,7 +24,7 @@ $data = [
 try {
     $json = \Digia\JsonHelpers\JsonEncoder::encode($data);    
 }
-catch(\InvalidArgumentException $e) {
+catch (\InvalidArgumentException $e) {
     
 }
 ```
@@ -39,7 +39,7 @@ $json = '["foo":"bar"]';
 try {
     $data = \Digia\JsonHelpers\JsonDecoder::decode($data);    
 }
-catch(\InvalidArgumentException $e) {
+catch (\InvalidArgumentException $e) {
     
 }
 ```
