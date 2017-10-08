@@ -6,7 +6,7 @@ Exception-based wrappers for json_encode and json_decode
 
 ## Requirements
 
-* PHP >= 7.1
+* PHP >= 7.0
 
 ## Installation
 
